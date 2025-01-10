@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 // Removed import Image from "next/image";
 
 // Assuming these images are in the public folder
-const img1 = "src/assets/undraw_updated_resume_re_7r9j.svg";
-const img2 = "src/assets/undraw_job_offers_re_634p.svg";
-const img3 = "src/assets/undraw_statistic_chart_re_w0pk.svg";
+const img1 = "../assets/undraw_updated_resume_re_7r9j.svg";
+const img2 = "../assets/undraw_job_offers_re_634p.svg";
+const img3 = "../assets/undraw_statistic_chart_re_w0pk.svg";
 
 export default function Hero() {
   const images = [img1, img2, img3];
