@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://backend-resumerack.vercel.app/api";
+const API_URL = "https://backend-resumerack.vercel.app";
 
 // Upload files and job description
 export const uploadFiles = async (files, jobDescription) => {
